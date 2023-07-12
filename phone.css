@@ -1,0 +1,49 @@
+/* Navigation */
+ #navbar{
+    flex-direction: column;
+}
+ #navbar ul li a{
+    padding: 0px 3px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+ }
+/* Home Section  */
+
+#home{
+ height: 60vh;
+ padding: 3px 68px;
+}
+#home::before{
+    height: 80%;
+}
+#home p{
+    font-size: 10px;
+}
+
+/*servicessection*/
+#services{
+    flex-direction: column;
+}
+#services.box{
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px 0px;
+}
+#services .box img{
+    height: 60px;
+}
+
+/* gallery section  */
+  #gallery-section{
+    overflow: hidden;
+} 
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+#btn2{
+    font-size: 0.5rem;
+    width:75%;
+    margin-left: 20%;
+}
